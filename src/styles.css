@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --yellow-color: #FFF500;
+  --red-color: #E04006;
+  --light-gray-color: #F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 2.1;
+  background-color: #eee;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: .4rem;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#mapid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
